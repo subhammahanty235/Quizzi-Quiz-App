@@ -14,7 +14,7 @@ function App() {
             <Routes>
             <Route path='/' element={
               <>
-                <Typography varient="h1" fontWeight="bold">Quizzi</Typography>
+                <Typography varient="h1" fontWeight="bold">QuizziPlay</Typography>
                 <Settings/>
               </>
             }/>

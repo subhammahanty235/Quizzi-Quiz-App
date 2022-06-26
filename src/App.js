@@ -5,16 +5,18 @@ import Settings from './pages/Settings'
 import Questions from './pages/Questions'
 import Scores from './pages/Scores'
 import {Box, Container, Typography} from '@mui/material'
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div>
        <Router>
+        <Navbar/>
         <Container maxWidth="sm">
             <Box textAlign="center" mt={5}>
             <Routes>
             <Route path='/' element={
               <>
-                <Typography varient="h1" fontWeight="bold">QuizziPlay</Typography>
+               
                 <Settings/>
               </>
             }/>

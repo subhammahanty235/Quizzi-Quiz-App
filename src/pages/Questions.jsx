@@ -11,7 +11,7 @@ import { borders } from "@mui/system";
 const Questions = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate()
-    const [correctanswer , setCorrectans] = useState(false);
+    
     const getRandom = (max) => {
         return Math.floor(Math.random() * Math.floor(max))
     }
@@ -47,7 +47,7 @@ const Questions = () => {
         t = setInterval(()=>{
             setTimer(timer-1);
             
-            if(timer == 0){
+            if(timer <= 0){
                 setTimer("Time Out!!!!")
 
                 setTimeout(() => {

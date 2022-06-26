@@ -1,4 +1,8 @@
-.correctanswer{
-  border: 1px solid greenyellow !important;
-  color: greenyellow !important;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Pacifico&family=Quicksand&family=Source+Sans+Pro:wght@200&family=The+Nautigal:wght@700&display=swap');
+.navbar-header{
+  font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'The Nautigal', cursive;
 }

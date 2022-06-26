@@ -49,6 +49,7 @@ const Settings =()=>{
     
     return(
       <>
+       <Typography varient="h1" fontWeight="bold">Choose Your Settings</Typography>
           <form onSubmit={onsubmit}>
             <SelectField options={response.trivia_categories} label="Category"/>
             <SelectField options={difficulty} label="Difficulty"/>

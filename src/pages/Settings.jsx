@@ -10,6 +10,12 @@ import Loading from '../images/loading.gif'
 
 const Settings =()=>{
     const navigate = useNavigate()
+    useEffect(()=>{
+      if(!localStorage.particpateName){
+
+        navigate('/login')
+      }
+    })
     //categories 
     const {response , error , loading} =useFetch({url:"https://opentdb.com/api_category.php"})
     if(response){

@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Pacifico&family=Quicksand&family=Source+Sans+Pro:wght@200&family=The+Nautigal:wght@700&display=swap');
 .navbar-header{
   font-family: 'Merriweather', serif;
@@ -5,4 +10,46 @@ font-family: 'Pacifico', cursive;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'The Nautigal', cursive;
+}
+
+/* custom css for login */
+.maindiv{
+  height: 50vh;
+  border: 2px solid rgb(111, 110, 110);
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  /* display: flex; */
+}
+.upper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upper hr{
+  width: 60%;
+}
+.lowersec{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
+.lowersec input{
+  padding: 2px 6px;
+}
+
+.wave1{
+  opacity: 0.5;
+  position: absolute;
+}
+.wave2{
+  opacity: 0.5;
+  /* position: absolute; */
+}
+.svgs{
+  position: relative;
+  z-index: 200;
 }

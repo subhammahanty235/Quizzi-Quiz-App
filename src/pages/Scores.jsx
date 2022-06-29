@@ -16,26 +16,10 @@ const Scores = () => {
     }
     return (
         <>
-            {/* <Box mt={30}>
-            <Typography variant='h4' fontWeight='bold' mb={3}> Total Score : {score}</Typography>
-            <Button variant='outlined' onClick={handleBackTohome}>Back To Home</Button>
-          </Box> */}
-            {/*  Prototype:
-          -----------------------------------------------------------------------------------
-          |                                 ScoreCard                                       |
-          -----------------------------------------------------------------------------------
-          |Total Number of Questions:                                                       |
-          |Category:                                                                        |
-          |Difficulty Level:                                                                |
-          |----------------------------------------------------------------------------------
-          |Correct Answers:                                                                 |
-          |total Scored:                                                                    |
-          |Emoji for You:                                                                   |
-          |                                 Best Of luck                                    |
-          -----------------------------------------------------------------------------------
-          */}
+           
 
             <Box mt={30}>
+                
                 <Typography variant="h4" fontWeight='bold' mb={3}>Total Number Of Questions: {amount_of_question}</Typography>
                 <Typography variant='h4' fontWeight='bold' mb={3}> Total Score : {score}</Typography>
                 <Button variant='outlined' onClick={handleBackTohome}>Back To Home</Button>
